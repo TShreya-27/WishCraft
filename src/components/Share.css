@@ -1,0 +1,238 @@
+/* =========================================
+   SHARE MODAL
+========================================= */
+
+.share-modal-overlay {
+  box-shadow: 0 0 0 9999px rgba(217, 208, 208, 0.45);
+  position: fixed;
+  inset: 0;
+  background: rgba(217, 208, 208, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.share-modal {
+  position: relative;
+  width: 580px;
+  max-width: 92%;
+  max-height: 92vh;
+  background: #FFF4B5;
+  border-radius: 24px;
+  padding: 20px;
+  box-shadow:
+    0 20px 40px rgba(215, 194, 194, 0.2);
+  overflow-y: auto;
+}
+
+/* =========================================
+   TITLE
+========================================= */
+
+.share-title {
+  margin-top: 0;
+  margin-bottom: 14px;
+  text-align: center;
+  color: #4B8F2F;
+  font-size: 24px;
+  font-family: 'TAN Pearl';
+}
+
+.share-preview {
+  width: min(100px, 50%);
+  max-height: 190px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(72, 68, 36, 0.16);
+}
+
+.share-status {
+  margin: 0 auto;
+  max-width: 420px;
+  text-align: center;
+  color: #4B8F2F;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.share-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 22px;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.share-card {
+  border: none;
+  border-radius: 20px;
+  background: #FFA02E;
+  background-blend-mode: color-burn;
+  padding: 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #468432;
+  font-family: 'TAN Meringue';
+  transition: 0.25s ease;
+  box-shadow:
+    0 6px 16px rgba(115, 158, 121, 0.08);
+}
+
+.share-card:hover {
+  transform: translateY(-3px);
+}
+
+.share-card:disabled {
+  opacity: 0.58;
+  cursor: wait;
+  transform: none;
+}
+
+.copy-icon {
+  width: 28px;
+  height: 28px;
+}
+.share-icon {
+  min-height: 30px;
+  display: grid;
+  place-items: center;
+}
+
+.share-emoji-icon {
+  min-width: 58px;
+  border-radius: 999px;
+  background: rgba(255, 244, 181, 0.78);
+  color: #4B8F2F;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+
+.whatsapp-icon,
+.instagram-icon,
+.email-icon,
+.download-icon,
+.qr-icon,
+.share-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.share-qr-panel {
+  margin: 22px auto 0;
+  padding: 16px;
+  width: fit-content;
+  max-width: 100%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 18px;
+}
+
+.share-qr-image {
+  width: 180px;
+  height: 180px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.share-qr-panel p {
+  margin: 0;
+  color: #4B8F2F;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.share-url-link {
+
+  color: #6C63FF;
+
+  text-decoration: none;
+
+  word-break: break-all;
+
+  font-weight: 600;
+
+  transition: 0.2s ease;
+}
+
+.share-url-link:hover {
+
+  text-decoration: underline;
+
+  opacity: 0.85;
+}
+
+.share-url-box {
+  margin-top: 18px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.58);
+  color: #446432;
+  font-size: 11px;
+  line-height: 1.45;
+  word-break: break-all;
+}
+
+/* =========================================
+   WATERMARK
+========================================= */
+
+.share-watermark {
+  margin-top: 34px;
+  text-align: center;
+  color: #666;
+  font-size: 10px;
+}
+
+.share-watermark span {
+  font-family: 'TAN Pearl';
+  color: #f14644;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+/* =========================================
+   CLOSE
+========================================= */
+
+.share-close-btn {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  border: none;
+  background: transparent;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+@media (max-width: 620px) {
+  .share-modal {
+    padding: 18px;
+  }
+
+  .share-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .share-card {
+    padding: 18px;
+  }
+}

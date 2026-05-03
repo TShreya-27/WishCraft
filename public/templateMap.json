@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Anniversary",
+    "images": [
+      {
+        "src": "/wishcraft_templates/anniversary/anniversary_8.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/anniversary/anniversary_14.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/anniversary/anniversary_11.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/anniversary/anniversary_12.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/anniversary/anniversary_9.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/anniversary/anniversary_10.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/anniversary/anniversary_6.jpg",
+        "premium": false
+      }
+    ]
+  },
+  {
+    "title": "Birthday",
+    "images": [
+      {
+        "src": "/wishcraft_templates/birthday/birthday_18.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/birthday/birthday_14.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/birthday/birthday_1.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/birthday/birthday_5.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/birthday/birthday_8.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/birthday/birthday_6.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/birthday/birthday_20.jpg",
+        "premium": true
+      }
+    ]
+  },
+  {
+    "title": "Festival",
+    "images": [
+      {
+        "src": "/wishcraft_templates/festival/festival_9.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/festival/festival_5.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/festival/festival_19.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/festival/festival_1.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/festival/festival_6.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/festival/festival_18.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/festival/festival_14.jpg",
+        "premium": false
+      }
+    ]
+  },
+  {
+    "title": "Loved Ones",
+    "images": [
+      {
+        "src": "/wishcraft_templates/loved-ones/romantic_3.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/loved-ones/romantic_12.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/loved-ones/romantic_17.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/loved-ones/romantic_5.jpg",
+        "premium": true
+      },
+      {
+        "src": "/wishcraft_templates/loved-ones/romantic_18.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/loved-ones/romantic_16.jpg",
+        "premium": false
+      },
+      {
+        "src": "/wishcraft_templates/loved-ones/romantic_9.jpg",
+        "premium": false
+      }
+    ]
+  }
+]
