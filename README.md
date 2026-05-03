@@ -4,12 +4,17 @@ WishCraft is a React app for creating, editing, browsing, and sharing digital gr
 
 ## Features
 
+<img width="700" height="1180" alt="image" src="https://github.com/user-attachments/assets/91bd0fa2-dd18-4238-b496-07513ff97809" />
+
+
 - Greeting card editor with upload, crop, text, watermark, and sharing tools
 - Browseable card templates for birthdays, anniversaries, festivals, and loved ones
 - Firebase authentication, Firestore, and Storage integration
 - Responsive React interface for desktop and mobile
 
 ## Tech Stack
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/8699e108-8abd-494e-9807-dafdaea55f73" />
+
 
 - React 18
 - Create React App
