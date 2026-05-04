@@ -1,6 +1,7 @@
 # WishCraft
 
 WishCraft is a React app for creating, editing, browsing, and sharing digital greeting cards.
+# Link to the video: https://drive.google.com/file/d/1Oz2N8sjRBVc1a2sQbilOs-n7w50ig-gZ/view?usp=sharing
 
 ## Features
 
